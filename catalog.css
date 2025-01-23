@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.header1 {
+    height: 50px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 912px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 12px;
+}
+
+.filter-button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.filters {
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card1 {
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 440px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin: 12px 0 8px;
+}
+
+.card-spec {
+    font-size: 20px;
+    color: rgba(100, 100, 100, 1);
+    margin: 4px 0;
+}
+
+.order-button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 12px;
+}
